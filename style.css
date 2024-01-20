@@ -1,0 +1,106 @@
+
+/*Horizontal navigate bar in Header-Nav*/
+nav ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;}
+nav ul li {float: left;}
+nav ul li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+nav ul li a:hover:not(.active) {background-color: #111;}
+.active {background-color: #04AA6D;}
+ 
+/*The slide down MY BLOG*/
+#panel, #flip { padding: 5px; text-align: center; background-color: rgb(222, 252, 206); border: solid 3px gray;}
+#panel { padding: 50px;display: none;}
+#panel img {border-radius: 50%;}
+
+/*In main, style for 5 places articles*/
+main div a {padding: 70px 70px 70px 70px;}
+h1 {text-align: center;}
+p {text-align: center;}
+
+
+/*responsive image- CLASS resposive*/
+h4 {text-align: center; }
+.responsive {width:80%; height: 400px; align-self: center;}
+.center { display: block;margin-left: auto; margin-right: auto;}
+
+
+.main-article {margin: 0;padding: 10px;background-color: rgb(30, 59, 37);}
+.main-article > h1, .subsection {margin: 10px;padding: 5px;text-align: center;}
+.subsection {background: rgb(221, 240, 226);}
+.subsection > h2, p {margin: 4px;font-size: 90%;}
+h2 {font-weight: bold; text-align: center;}
+img {height: auto;width: 100%; align-self: center; padding:10px; margin: 20px; object-fit: contain;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] { width: 90%;}}
+/*In main, Reasons why you need to visit Vietnam- sizing image*/
+[class*="col-"] { float: left; padding: 10px;}
+
+@media only screen and (min-width: 768px) {
+    /* For tablet */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    img {align-self: center; width: 250px; height: 300px; object-fit: cover;}
+} 
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    main {background-color: rgb(228, 252, 240);}
+    section {background-color: rgb(183, 242, 181);}
+    img {align-self: center; object-fit: cover; width: 350px; height: 300px;}
+}
+
+/*Footer*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{background: #fcfcfc;font-family: sans-serif;}
+footer{position: relative;bottom: 0;left: 0;right: 0;background: #111;height: auto;width: 100%;padding-top: 40px;color: #fff;}
+.footer-content{display: flex;align-items: center;justify-content: center;flex-direction: column;text-align: center;}
+.footer-content h3{font-size: 2.1rem;font-weight: 500;text-transform: capitalize;line-height: 3rem;}
+.footer-content p{max-width: 500px;margin: 10px auto;line-height: 28px;font-size: 14px;color: #cacdd2;}
+.socials{list-style: none;display: flex;align-items: center;justify-content: center;margin: 1rem 0 3rem 0;}
+.socials li{margin: 0 10px;}
+.socials a{text-decoration: none;color: #fff;border: 1.1px solid white;padding: 5px;border-radius: 50%;}
+.socials a i{font-size: 1.1rem;width: 20px;transition: color .4s ease;}
+.socials a:hover i{color: aqua;}
+
+.footer-bottom{background: #000;width: 100%;padding: 20px;padding-bottom: 40px;text-align: center;}
+.footer-bottom p{float: left;font-size: 14px;word-spacing: 2px;text-transform: capitalize;}
+.footer-bottom p a{color:#44bae8;font-size: 16px;text-decoration: none;}
+.footer-bottom span{text-transform: uppercase;opacity: .4;font-weight: 200;}
+.footer-menu{float: right;}
+.footer-menu ul{display: flex;}
+.footer-menu ul li{padding-right: 10px;display: block;}
+.footer-menu ul li a{color: #cfd2d6;text-decoration: none;}
+.footer-menu ul li a:hover{color: #27bcda;}
+
+@media (max-width:700px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;}
+}
+
+
